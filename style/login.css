@@ -1,0 +1,95 @@
+
+.loginDiv{
+    position: relative;
+    width: 45%;
+    height: 400%;
+    left: 27%;
+    top: 30%;
+}
+
+.loginDiv img{ 
+    position: absolute;
+    width:100%;
+    height: auto;   
+    right: 0;
+    bottom: 0;
+    
+}
+
+#loginForm{
+    position: absolute;
+    top: 30%;
+    left:15%;
+    bottom: 30%;
+    right:20%;
+}
+
+
+#loginHeader{
+    position: absolute;
+    font-family: 'Pacifico', cyrillic;
+    letter-spacing: 3px; 
+    text-align: center;
+    top: 15%;
+    right:35%;
+}
+
+#loginHeader h1{
+    font-size: 38px;
+    font-size: 2.5vw;
+    font-weight: normal;
+}
+
+.loginInputDiv{
+    position: absolute;
+    font-size: 17px;
+    font-size: 1.5vw;
+    padding: 1.5%;
+    width: 50%;
+    height: 40%;
+    top: 30%;
+    right:20%;
+}
+
+#user,#pass{
+    background: white;
+    border: 2px solid purple;
+}
+
+.loginInputDiv input{
+    width: 100%;
+    height: 30%;
+    margin-top:2%; 
+    border-radius: 4px;
+}
+
+.buttonColor{
+    background-color: white;
+    color: #800080;
+}
+
+.buttonColor:hover{
+    background-color: #F7BDFF;
+}
+
+.submitLogin{
+    position: absolute;
+    font-size: 23px;
+    font-size: 2vw;
+    top: 78%;
+    right:35%;    
+    width:25%;
+    height: 20%;
+    margin-left: 2%;
+}
+
+.failedLogin{  
+    color:red;
+}
+
+#capsLockEvent{
+    width: 40%;
+    color:red;
+    font-size: 18px;
+    font-size: 2vw;
+}

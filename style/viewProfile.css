@@ -1,0 +1,156 @@
+
+#viewProfileDiv{
+	border:3px #800080 solid;
+	border-top: none;
+}
+
+#myProfileHeader{
+	font-size:50px;
+	font-size: 4vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+	text-align: center;
+	margin-top: 4%;
+	border-top:2px #800080 solid;
+	border-bottom:2px #800080 solid;
+}
+
+.userInfo{
+	display: block;
+}
+
+.userInfo img{
+	width: 20%;
+	height: 10%;
+	margin-left: 5%;
+	border-radius:50%;
+}
+
+#topHeader{
+	margin-top: -18%;
+}
+
+.userInfo h3{
+	position: relative;	
+	font-size: 30px;
+	font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    margin-left: 50%;
+    font-weight: normal;
+    padding: 16px;
+    
+}
+
+.userInfo p{
+	font-size: 25px;
+	font-size: 1.5vw; 
+    margin-left: 52%;
+}
+
+#contactsHeader{
+	margin-left: 2%;
+	font-size:35px;
+	font-size: 2.5vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+}
+
+.contactsInfo{
+	position: absolute;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.contactsInfo h3{
+	position: relative;	
+	font-size: 30px;
+	font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    font-weight: normal;
+    padding: 16px;
+}
+
+.contactsInfo p{
+	position: relative;
+    font-size: 25px;
+    font-size: 1.5vw; 
+}
+
+
+.contactsInfoRight{
+	position: relative;
+	margin-left: 52%;
+	display: inline-block;
+}
+
+.contactsInfoRight h3{
+	position: relative;	
+    font-size: 30px;
+    font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    font-weight: normal;
+    padding: 16px;
+}
+
+.contactsInfoRight p{
+    position: relative;
+    font-size: 25px;
+    font-size: 1.5vw; 
+}
+
+#additionalInfoHeader{
+	margin-top:3%;
+	font-size:35px;
+	font-size: 2.5vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+	margin-left: 2%;
+}
+
+.additionalInfo label{
+	margin-left: 2%;
+	display:block;
+	margin-top: 2%;
+	font-size: 30px;
+	font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+}
+
+#interests{
+	margin-top: 0.5%;
+	width: 60%;
+	height: 120px;
+	border:2px #800080 solid;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	font-size: 1.5vw; 
+}
+
+#editButton{
+	position: absolute;
+	left:88%;
+	top:43%;
+	border:none; 
+    color: white;
+    width: 11%;
+    height: 7%;
+    font-size:25px;
+    font-size: 1.2vw; 
+    cursor: pointer;
+    background-color: #800080;
+    border-radius: 5px;
+}
+
+#editButton:hover{
+	background-color:#F7BDFF;
+}
+
+#displayUsername{
+	margin-left: 10%;
+	margin-top: 7%;
+	margin-bottom:2%;
+	font-size:30px;
+	font-size: 2vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+}

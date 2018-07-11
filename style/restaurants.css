@@ -1,0 +1,62 @@
+
+/* searchbar for restaurants */
+form.restaurantSearch input[type = text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid purple;
+    float: left;
+    width: 60%;
+    background: white;
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+
+
+form.restaurantSearch button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #800080;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 1.5%;
+    border: 1px solid purple;
+}
+form.restaurantSearch button:hover {
+    background: #330033;
+}
+
+/* Restaurant list */
+
+.floating-box {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 280px;
+    margin: 10px;
+    font-size: 250%;
+    font-family: 'Pacifico', cyrillic;
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+}
+
+.floating-box img {
+    
+    position: absolute;
+    margin-top: 20%;
+    width: 100%;
+    height: 212.5px;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#restaurantDiv {
+    margin: 10%;
+}

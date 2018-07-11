@@ -1,0 +1,126 @@
+/*atelier buttons*/
+
+
+#ateliersImageDiv {
+	width:50%;
+	height:150px;
+	margin-top:5%;
+	margin-left:25%;
+	font-family: 'Pacifico', cyrillic;
+	font-size:120px;
+	color:purple;
+}
+
+.atelierDivs {
+	width:250px;
+	height:350px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 15%;
+	margin-left: 11%;
+	float:left;
+	font-family: 'Pacifico', cyrillic;
+	font-size: 25px;
+	color:purple;
+}
+
+
+.atelierAnchors{
+	font-weight:900;
+    text-decoration: none !important;
+	position: absolute;
+	left: 0%;
+	top: -10%;
+	font-size:30px;
+	color:purple;
+}
+
+
+.atelierDivs:after{
+	content:'\A';
+	position:absolute;
+	width:80%;
+	height:80%;
+	top:10%;
+	left:10%;
+	right:10%;
+	bottom:10%;
+	background:rgba(0,0,0,0.5);
+	opacity:0;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	display:block;
+	border-radius:10px;
+}
+
+.atelierDivs:hover:after{
+	opacity:1;
+}
+
+.atelierTown{
+	position:absolute;
+	width:60%;
+	height:60%;
+	top:20%;
+	left:20%;
+	right:20%;
+	bottom:20%;	
+	opacity:0;
+}
+
+ .atelierAddress{
+	position:absolute;
+	width:60%;
+	height:60%;
+	top:40%;
+	left:20%;
+	right:20%;
+	bottom:20%;
+	opacity:0;
+ }
+ 
+
+
+.atelierDivs:hover .atelierTown{
+	font-family:cyrillic;
+	opacity:1;
+	-webkit-transition: all 2s
+	color:#F7BDFF;
+}
+
+.atelierDivs:hover .atelierAddress{
+	font-family:cyrillic;
+	opacity:1;
+	-webkit-transition: all 2s;
+	color:#F7BDFF;
+}
+
+#atelierSearchBar{
+	position:absolute;
+	left:18%;
+	top: 66%;
+	padding: 0.7% 13%;
+	border-radius:10px;
+	border:0;
+}
+
+
+#atelierSearchButton{
+	position:absolute;
+	left:60%;
+	top: 62.5%;
+	height: 50px;
+	width: 200px;
+	border:1px solid purple;
+	border-radius: 20px;
+	width:20%;
+	font-size: 30px;
+	font-family: 'Pacifico', cyrillic;
+}
+
+#atelierSearchButton:hover{
+	border:1px solid #F7BDFF;
+}
+

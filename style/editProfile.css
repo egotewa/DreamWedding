@@ -1,0 +1,181 @@
+
+.userProfileForm{
+	border:3px #800080 solid;
+	border-top: none;
+}
+
+#myProfileHeader{
+	font-size:50px;
+	font-size: 4vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+	text-align: center;
+	margin-top: 4%;
+	border-top:2px #800080 solid;
+	border-bottom:2px #800080 solid;
+}
+
+
+.userInfo img{
+	width: 20%;
+	height: 10%;
+	margin-left: 5%;
+	border-radius:50%;
+}
+
+#topLabel{
+	margin-top: -18%;
+}
+
+.userInfo label{
+	display:block;
+	position: relative;	
+    font-size: 25px;
+    font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    margin-left: 52%;
+    padding: 0.6%;
+}
+
+.userInfo input{
+    width: 42%;
+    height: 20px;
+    padding: 0.6%;
+    border-radius: 4px;
+    margin-left: 52%;
+    border:2px #800080 solid;
+    font-size: 1.5vw;
+}
+
+#contactsHeader{
+	margin-bottom: 1%;
+	margin-left: 2%;
+	font-size:35px;
+	font-size: 2.5vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+}
+
+.contactsInfo{
+	position: absolute;
+	display: inline-block;
+	margin-left: 2%;
+	width: 30%;
+
+}
+
+.contactsInfo label{
+	position: relative;	
+    font-size: 25px;
+    font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    bottom:8px;
+
+}
+
+.contactsInfo input{
+    width: 130%;
+    height: 28px;
+    border-radius: 4px;
+    padding: 5px;
+    border:2px #800080 solid;
+    margin-top:1%;
+    margin-bottom:3%;
+    max-width: 130%;
+    font-size: 1.5vw;
+}
+
+.contactsInfoRight{
+	position: relative;
+	display: inline-block;
+	margin-left: 52%;	
+	width: 30%;
+	
+}
+
+.contactsInfoRight label{
+
+	position: relative;	
+    font-size: 25px;
+    font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+    bottom:8px;
+}
+
+.contactsInfoRight input{
+    width: 140%;
+    height: 28px;
+    border-radius: 4px;
+    padding: 5px;
+    border:2px #800080 solid;
+    max-width: 140%;
+    margin-top:1%;
+    margin-bottom:3%;
+    font-size: 1.5vw;
+}
+
+
+#additionalInfoHeader{
+	margin-top:3%;
+	font-size:30px;
+	font-size: 2.5vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+	margin-left: 2%;
+}
+
+.additionalInfo label{
+	margin-left: 2%;
+	display:block;
+	margin-top: 2%;
+	font-size: 25px;
+	font-size: 2vw; 
+    font-family: 'Pacifico', cyrillic;
+}
+
+#interests{
+	width: 60%;
+	height: 120px;
+	border:2px #800080 solid;
+	margin-left: 2%;
+	margin-top: 1%;
+	font-size: 1.5vw;
+}
+
+.saveButton {	
+	margin-top: 2%;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 25px;
+	font-size: 2vw; 
+	font-family: 'Pacifico', cyrillic;
+	color:white;
+	background-color: #800080;
+	margin-left: 85%;
+	width: 10%;
+	height: 50px;
+	margin-bottom: 3%;
+}
+
+.saveButton:hover{ 
+    background-color:#F7BDFF;
+}
+
+.invalidMsg{
+	color:red;
+	margin-bottom: 4%;
+}
+
+.userInfo .invalidMsg{
+	margin-left: 52%;
+}
+
+#displayUsername{
+	margin-left: 10%;
+	margin-top: 1%;
+	margin-bottom:1%;
+	font-size:30px;
+	font-size: 2vw; 
+	font-weight: normal;
+	font-family: 'Pacifico', cyrillic;
+}

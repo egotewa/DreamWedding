@@ -1,0 +1,141 @@
+.regForm {
+	position: relative;
+}
+
+.regForm h1{
+    margin-top: 2%; 
+    text-align: center;
+    font-size: 40px;
+    font-size: 3vw;
+    letter-spacing: 3px;
+    font-family: 'Pacifico', cyrillic;
+    font-weight: normal;
+
+}
+
+.group{
+     position: relative;
+}
+
+.group label{
+    display: inline-block;
+    font-size: 30px;
+    font-size: 2vw;
+    font-family: 'Pacifico', cyrillic;
+    padding: 0.6%;
+    width: 50%;
+
+}
+
+.group input{
+    width: 42%;
+    height: 20px;
+    padding: 0.6%;
+    border-radius: 4px;
+}
+
+
+.regForm p{
+    position: relative;
+    width: 40%;
+    left:55%;
+    color:red;
+    font-size: 18px;
+    font-size: 2vw;
+}
+
+.mandatory{
+    color:red;
+}
+
+#firstNameId, #lastNameId, #regUsernameId, #regPassId, #confirmPassId, #firstNameId, #emailId, #birthdateId{
+    border: 2px solid purple;
+    background: #F7BDFF;
+}
+
+#firstNameId:focus, #lastNameId:focus, #regUsernameId:focus, #regPassId:focus, #confirmPassId:focus, #emailId:focus, #birthdateId:focus{
+    background: white;
+}
+
+
+#termsHeading{
+    text-align: center;
+    font-size: 35px;
+    font-size: 2.5vw;
+    font-family: 'Pacifico', cyrillic;
+    margin:1% 0;
+    font-weight: normal;
+}
+
+#termsConditions{
+    width: 50%;
+    height: 100%;
+    margin: 0 23%;
+    border: 2px solid purple;
+}
+
+
+#checkbox{
+    font-family: 'Pacifico', cyrillic;
+    font-size: 30px;
+    font-size: 3vw;
+    margin-top: 1%;
+    margin-left: 42%;
+}
+
+#ifNotChecked{
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.submitReg{
+    font-size: 25px;
+    font-size: 1.5vw;
+    height: 45px;
+    width: 15%;
+    margin-left:80%;
+    color: white;
+    background-color: purple;
+}
+
+#question{
+    width: 20px;
+    height: 20px;
+}
+
+.passDetails{
+    position: relative;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.passDetails .passDetailsText{
+    visibility: hidden;
+    position:absolute;
+    border-radius: 5px;
+    bottom:100%;
+    padding:20%;
+    right:50%;
+    width: 2000%;
+    height: 200%;
+    background-color: purple;
+    z-index: 1;
+    text-align: center;
+    color:white;
+}
+
+.passDetails .show{
+    visibility: visible;
+}
+
+#pleaseLogin{
+    margin-top:5%;
+    text-align: center;
+    font-size: 40px; 
+    font-size: 4vw;
+    font-family: 'Pacifico', cyrillic;
+    font-weight:normal;
+}
+

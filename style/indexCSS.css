@@ -1,0 +1,48 @@
+body{
+    background-color: #F7BDFF;
+}
+
+
+.homeImage{
+    position: absolute;
+	width: 100%;
+    margin:auto;
+	opacity: 0.5;	
+}
+
+span{
+	position: relative;
+	display: block;
+	margin:auto;
+	text-align: center;
+	font-size: 45px; 
+	font-size: 3.5vw;
+	font-family: 'Pacifico', cyrillic;
+
+}
+
+.initialButtons{	
+	position: relative;
+	cursor: pointer;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 2vw;
+	font-size: 23px;
+	font-family: 'Pacifico', cyrillic;
+	background-color: white;
+	margin-top: 20%; 
+	margin-left: 3%;
+	color: #800080;
+	width: 30%;
+	height: 55px;
+}
+
+.initialButtons:hover{
+    background-color: #F7BDFF;
+}
+
+
+.initialButtons:first-child{
+	margin-left: 5%;
+}
+

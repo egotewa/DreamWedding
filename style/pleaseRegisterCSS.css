@@ -1,0 +1,29 @@
+
+#pleaseRegister{
+	margin-top:5%;
+	text-align: center;
+	font-size: 40px; 
+	font-size: 3vw;
+	font-family: 'Pacifico', cyrillic;
+
+}
+
+
+.registerButton{
+	cursor: pointer;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 23px;
+	font-size: 2vw;
+	font-family: 'Pacifico', cyrillic;
+	background-color: white;
+	margin-top: 5%;
+	color: #800080;
+	width: 30%;
+	height: 55px;
+}
+
+.registerButton:hover{
+    background-color: purple;
+    color:white;
+}

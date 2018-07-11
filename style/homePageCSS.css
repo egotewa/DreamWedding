@@ -1,0 +1,269 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    /*font-weight:bold;*/
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* our code */
+
+body{
+    background-color: #F7BDFF;
+}
+
+
+
+.menu {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px 50px;
+    position: relative;
+    background-color: #800080;
+}
+
+.buttonColor{
+    color: #800080;
+    background-color: white;
+}
+
+.buttonColor:hover{
+    background-color: #F7BDFF;
+}
+
+.button {   
+    margin-top: 1%;
+    border-radius: 20px;
+    cursor: pointer;
+    /*font-size: 20px;*/
+    font-size:1vw;
+    font-family: 'Pacifico', cyrillic;
+}
+
+
+.buttonReg {
+    height: 55px;
+    width: 13%;
+    position:relative;
+    margin-left: 72%;
+    /*font-size: 27px;*/
+    font-size:2vw;
+}
+
+.buttonLogin {
+    height: 55px;
+    width: 13%;
+    font-size: 27px;
+    font-size:2vw;
+    margin-left:1%; 
+    position:relative;
+}
+
+.buttonProfile {
+    height: 55px;
+    width: 17.5%;
+    /*font-size: 27px; */ 
+    margin-left:1%;
+    position: relative;
+    font-size:2vw;
+}
+
+.buttonLogout{
+    height: 55px;
+    width: 15%;
+    position:relative;
+    margin-left: 65%;
+    /*font-size:27px;*/
+    font-size:2vw;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+li {
+    display: inline;
+}
+
+
+.navColor{
+    color: #F7BDFF;
+}
+
+.navColor:hover{
+    color: pink;
+}
+
+
+li a {
+    font-family: 'Pacifico', cyrillic;
+    /*font-size: 35px;*/
+    font-size:2.5vw;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+
+.homeImage{
+    position: absolute;
+    max-width: 100%;
+    margin:auto;
+    height: 145%;
+    opacity: 0.5;   
+}
+
+.logoImage{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    margin-left: 1%;
+}
+
+#homePageText{
+    width:90%;
+    height:150px;
+    position:relative;
+    margin-left:6%;
+    margin-top:7%;
+    font-family: 'Pacifico', cyrillic;
+    /*font-size:50px;*/
+    font-size:3.5vw;
+}
+
+#homePageText h2 {
+    font-weight: normal;
+}
+
+h2:last-child{
+    margin-top: 10%;
+    text-align: center;
+}
+
+/*@media screen and (max-width: 1400px) {
+    .button{
+        font-size: 22px;
+    }
+  .buttonReg{
+      width:135px;
+      height:45px;
+      margin-left:80%;
+  }
+  .buttonLogin{
+      width:90px;
+      height:45px;
+  }
+}*/
+
+
+/*@media screen and (max-width: 450px) {
+    .button{
+        font-size: 10px;
+    }
+  .buttonReg{
+      width:70px;
+      height:22px;
+      margin-left:60%;
+  }
+  .buttonLogin{
+      width:45px;
+      height:22px;
+  }
+}*/
