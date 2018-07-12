@@ -1,6 +1,6 @@
 var html="" ;
 		var code="" ;
-		//get certain atelier
+		//get certain atelier function that constructs the page of every atelier
 			function createPage(pseudoId){
 				xhttp = new XMLHttpRequest();
 				xhttp.onreadystatechange = function() {
@@ -62,7 +62,7 @@ var html="" ;
 				xhttp.send();
 		}
 		
-		//get All ateliers 
+		//get All ateliers code; used to generate html of the page consisting of the list with all existing ateliers
 			xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {

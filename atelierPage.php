@@ -54,7 +54,7 @@
 	
 	<div id="1"> 
 	</div>
-	<!-- static items: -->
+	<!-- static items-test purposes: -->
 	<!--<div  id="APlusDiv" class="atelierDivs" style='background-image: url("APlusButtonImage.jpg");'>
 		<a id="APlusTown" class="atelierTown"></a>
 		<br><br>

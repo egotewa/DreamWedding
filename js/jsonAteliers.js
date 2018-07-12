@@ -1,3 +1,10 @@
+/*
+
+	NOTE: This script was used back in the time when there was only an user interface and no databse & backend. It is no longer used in the current version.
+
+*/
+
+
 var jsonSyntax='{"atelier" :[' +
 				'{"id": "APlus","name": "A+ Atelier","town":"Sofia","address":"Konstantin Velichkov 55","divID":"APlusDiv","townID":"APlusTown","addressID":"APlusAddress","imageName":"img/APlusButtonImage.jpg","imageNameTemplate":"img/APlusButtonImageTemplate.jpg","phone":"0885 911 355","mail":"aplus@gmail.com","description":"Ние се стремим се предлагаме на клиентите си комплексно решение за всички онези малки детайли, които правят сватбения ден и денят на кръщението на детето, тържествен и специален.Към клиентите, които са ни се доверили се отнасяме с внимание и индивидуален подход и с радост приветстваме и техните идеи за да направим заедно всичко специално и уникално, съобразено с техните предпочитания и избрания стил, защото всеки такъв повод е сам по себе си уникален."},' +
 				'{"id": "Bella","name": "Bella","town":"Plovdiv","address":"Ivan Ibrishimov 42","divID":"BellaDiv","townID":"BellaTown","addressID":"BellaAddress","imageName":"img/BellaButtonImage.jpg", "imageNameTemplate":"img/BellaButtonImageTemplate.jpg","phone":"0987 710 113","mail":"bella@yahoo.com","description":"И така, на ръката ви блести венчален пръстен, имате идеи, визия, желание и трепет да се потопите в море от красота и да подредите по вълнуващ, заинтригуващ и очарователен начин вашия сватбен ден!"},' +

@@ -1,3 +1,12 @@
+/*
+
+		This script is used to modify and delete categories in guestList; categories are added 
+		via the form and addCategory.php
+
+*/
+
+
+
 /*function showAllCategories(){
 var selectHtml="" ;
 var selectCode="";
@@ -35,7 +44,7 @@ xmlhttp.onreadystatechange = function() {
 			xmlhttp.open("GET", "getAllCategories.php", true);
 			xmlhttp.send();
 }*/
-
+//delete category by a given index
 function deleteCat(index)
 {
 	xmlhttp = new XMLHttpRequest();
@@ -49,7 +58,7 @@ function deleteCat(index)
 	xmlhttp.open("GET", "deleteCategory.php?ind=" + index, true);
 	xmlhttp.send();
 }	
-
+//modify category function - makes the new form appear once the "Change" button is clicked
 function modifyCat(index)
 {
 	var button=document.getElementById("changeCatButton");
@@ -57,7 +66,7 @@ function modifyCat(index)
 		changeCategory(index);
 	}
 	//button.onclick=changeCategory(index);
-	//alert("modify "+index);
+	//console.log("modify "+index);
 	document.getElementById("category").style.display="none";
 	document.getElementById("categoryModify").style.display="block";
 	xmlhttp = new XMLHttpRequest();
@@ -71,7 +80,7 @@ function modifyCat(index)
 	xmlhttp.send();
 }	
 
-
+// change the selected category (name) in the DB
 function changeCategory(ind){
 	var myInput=document.getElementById("catInput2").value;
 	xhttp = new XMLHttpRequest();

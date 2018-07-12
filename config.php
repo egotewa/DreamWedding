@@ -1,4 +1,10 @@
 <?php
+
+/*
+
+	This is the config file which creates the database, all tables and several examples in every table for test purposes;
+
+*/
 	require 'create_db.php';
 	require 'create_users_table.php';
 	require 'create_atelier_table.php';

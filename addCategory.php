@@ -1,6 +1,13 @@
+
 <?php
+/*
+
+	Current code is used to add a new category and validate its name as well
+
+*/
 	session_start();
 	$username=$_SESSION['username'];
+	//category name validation- server sided
 	if($_SERVER["REQUEST_METHOD"] == "POST") 
 	{
 		$catError="";
@@ -8,12 +15,10 @@
 		if(empty($_POST["categoryName"])) 
 		{
 			$catError="Name of the category is required!";
-			//$catError="NoName";
 		}
 		elseif (strlen($category)>255)
 		{
 			$catError="Maximum length of category name is 255 characters!";
-			//$catError="tooLong";
 		}
 		else
 		{
@@ -48,6 +53,5 @@
 			return $inputData;
 	}
 	
-	//echo json_encode($catError);
 	
 ?>

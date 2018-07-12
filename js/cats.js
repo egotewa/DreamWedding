@@ -1,3 +1,9 @@
+/*
+
+	This script is used to generate all categories which the currently logged user has ever created 
+
+*/
+
 var selectHtml="" ;
 var selectCode="";
 var divHtml="";

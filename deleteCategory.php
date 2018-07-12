@@ -1,4 +1,10 @@
 <?php 
+
+/*
+
+	This code is responsible for removing an existing category from the database
+
+*/
 	$myID=$_GET["ind"];
 	$conn=new PDO('mysql:host=localhost;dbname=dreamweddingdatabase;charset=utf8', 'root', '');
 	$statement=$conn->query("SELECT * FROM guestcategories WHERE id='$myID'");

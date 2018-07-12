@@ -1,3 +1,10 @@
+/*
+
+		This script is used to search and display search results in the "Ateliers" section
+
+*/
+
+
 function searchButton(){
 	
 	
@@ -14,7 +21,7 @@ function searchButton(){
 					if (this.readyState == 4 && this.status == 200) {
 						
 						var jsonAteliers= JSON.parse(this.responseText);
-																//code with searchAtelierByName php
+																//code using searchAtelierByName php 
 																/*  html= '<div id="'+
 																	jsonAteliers[0].divID+
 																	'" class="atelierDivs"' +
